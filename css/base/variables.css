@@ -1,0 +1,16 @@
+:root {
+    --dark-accent: rgb(32 32 32);
+    --dark-accent-semi: rgb(32 32 32 / 0.8);
+
+    --medium-accent: rgb(244 248 249);
+
+    --light-accent: rgb(255 255 255);
+
+    --color-accent: rgb(33 194 248);
+    --color-accent-semi: rgb(33 194 248 / 0.5);
+    --color-accent-light: rgb(132 221 251);
+    --color-accent-light-semi: rgb(132 221 251 / 0.5);
+
+    --border-radius: 1rem;
+    --margin: 1rem;
+}

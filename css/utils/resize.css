@@ -1,0 +1,11 @@
+.u-resizeBoth {
+    resize: both;
+}
+
+.u-resizeHorizontal {
+    resize: horizontal;
+}
+
+.u-resizeVertical {
+    resize: vertical;
+}

@@ -1,0 +1,13 @@
+.TopIcon {
+    margin-top: 4rem;
+    grid-area: topicon;
+    text-align: center;
+}
+
+.TopIcon-image {
+    transition: all 0.25s ease-in;
+}
+
+.TopIcon-image:hover {
+    transform: scale(1.1);
+}

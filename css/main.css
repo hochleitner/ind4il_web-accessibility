@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@import "base/normalize.css";
+@import "base/variables.css";
+@import "base/elements.css";
+
+@import "components/button.css";
+@import "components/contact-form.css";
+@import "components/content.css";
+@import "components/down-icon.css";
+@import "components/footer.css";
+@import "components/grid-container.css";
+@import "components/header.css";
+@import "components/input.css";
+@import "components/portfolio.css";
+@import "components/section.css";
+@import "components/skill-list.css";
+@import "components/title.css";
+@import "components/top-bar.css";
+@import "components/top-icon.css";
+
+@import "utils/resize.css";

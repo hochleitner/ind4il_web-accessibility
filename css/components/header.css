@@ -1,0 +1,11 @@
+.Header {
+    width: calc(100% - var(--margin) * 2);
+    height: calc(100vh - var(--margin) * 2);
+    background-color: var(--dark-accent);
+    background-image: url("../../images/header-background.webp");
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    overflow: hidden;
+}

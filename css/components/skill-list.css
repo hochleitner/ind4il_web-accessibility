@@ -1,0 +1,26 @@
+.SkillList {
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.SkillList-item {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.SkillList-image {
+    transition: all 0.25s ease-in;
+}
+
+.SkillList-image:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px) {
+    .SkillList {
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+}

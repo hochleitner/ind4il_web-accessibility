@@ -1,0 +1,15 @@
+.Button {
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem;
+    transition: all 0.25s ease-in;
+    border-radius: 26px;
+}
+
+.Button:hover {
+    color: var(--light-accent);
+    background-color: var(--dark-accent);
+}

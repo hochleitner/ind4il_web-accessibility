@@ -1,0 +1,82 @@
+.GridContainer {
+    width: 73rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 10fr);
+    grid-column-gap: 2rem;
+}
+
+.GridContainer--header {
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "topbar topbar topbar topbar topbar topbar"
+                         "title title title title title title"
+                         ". . downicon downicon . .";
+}
+
+.GridContainer--welcome {
+    padding: 4rem 0;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". content content content content ."
+                         ". . topicon topicon . .";
+}
+
+.GridContainer--skills {
+    padding: 4rem 0;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". content content content content ."
+                         "skills skills skills skills skills skills"
+                         ". . topicon topicon . .";
+}
+
+.GridContainer--portfolio {
+    padding: 4rem 0;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". content content content content ."
+                         "portfolio portfolio portfolio portfolio portfolio portfolio"
+                         ". . topicon topicon . .";
+}
+
+.GridContainer--contact {
+    padding: 4rem 0;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". content content content content ."
+                         ". contactform contactform contactform contactform ."
+                         ". . topicon topicon . .";
+}
+
+.GridContainer--footer {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". logo logo logo logo ."
+                         ". contactaddress contactaddress contactaddress contactaddress ."
+                         ". social-icons social-icons social-icons social-icons ."
+                         ". imprint imprint imprint imprint .";
+}
+
+@media screen and (max-width: 1200px) {
+    .GridContainer {
+        width: 58rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .GridContainer {
+        width: calc(100% - var(--margin));
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .GridContainer--contact {
+        grid-template-areas: ". content content content content ."
+                             "contactform contactform contactform contactform contactform contactform"
+                             ". . topicon topicon . .";
+    }
+
+    .GridContainer--footer {
+        grid-template-areas: "logo logo logo logo logo logo"
+                             "contactaddress contactaddress contactaddress contactaddress contactaddress contactaddress"
+                             "social-icons social-icons social-icons social-icons social-icons social-icons"
+                             "imprint imprint imprint imprint imprint imprint";
+    }
+}

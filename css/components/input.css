@@ -1,0 +1,31 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-label {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.Input-field {
+    font-size: 1rem;
+    font-family: inherit;
+    border: none;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.Input--subject {
+    grid-area: subject;
+}
+
+.Input--message {
+    grid-area: message;
+}
+
+@media screen and (max-width: 720px) {
+    .Input {
+        grid-column: 1 / 3;
+    }
+}

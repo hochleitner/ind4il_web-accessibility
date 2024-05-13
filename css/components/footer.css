@@ -1,0 +1,36 @@
+.Footer {
+    color: var(--light-accent);
+    background-color: var(--dark-accent);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    font-weight: 300;
+}
+
+.Footer-address {
+    font-style: normal;
+    grid-area: contactaddress;
+}
+
+.Footer-logo {
+    grid-area: logo;
+}
+
+.Footer-socialIcons {
+    grid-area: social-icons;
+}
+
+.Footer-icon {
+    filter: invert(1);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Footer-imprint {
+    grid-area: imprint;
+}
+
+.Footer-logo, .Footer-address, .Footer-socialIcons, .Footer-imprint {
+    text-align: center;
+    padding: 1rem;
+}

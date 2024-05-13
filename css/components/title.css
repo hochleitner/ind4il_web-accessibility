@@ -1,0 +1,29 @@
+.Title {
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title-mainTitle {
+    color: var(--light-accent);
+    font-size: 5rem;
+}
+
+.Title-tagLine {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--light-accent);
+    margin-top: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .Title-mainTitle {
+        font-size: 8vw;
+    }
+
+    .Title-tagLine {
+        font-size: 4vw;
+    }
+}

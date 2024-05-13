@@ -1,0 +1,9 @@
+.Section {
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    background-color: var(--color-accent-light-semi);
+}
+
+.Section:nth-child(2n) {
+    background-color: var(--color-accent-semi);
+}
