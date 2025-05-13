@@ -13,3 +13,8 @@
     color: var(--light-accent);
     background-color: var(--dark-accent);
 }
+
+.Button--research {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
