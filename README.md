@@ -1,6 +1,6 @@
 # Web Accessibility
 
-IND4IL Inclusive Design | 14.05.2024 | Wolfgang Hochleitner
+IND4IL Inclusive Design | 14.05.2025 | Wolfgang Hochleitner
 
 Setzen Sie sich mit dem Thema barrierefreies Web auseinander, indem Sie die vorgegebene Portfolio-Seite nach den WCAG
 2.2 mithilfe der WCAG-EM Methodik evaluieren. Stellen Sie fest, ob die Webseite Level A der Guidelines erfüllt, oder ob
@@ -15,10 +15,10 @@ dafür vom W3C zur Verfügung gestellte WCAG-EM Report Tool und die Quick Refere
 ### Den Report vorbereiten
 
 1. Öffnen Sie zunächst das [WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/) und lesen Sie sich die
-   Einleitung auf dieser Seite dazu durch.
-2. Klicken Sie rechts unten `Next step: Define Scope` und tragen Sie auf der folgenden Seite die grundsätzlichen Daten
-   für die Evaluierung ein (Sie können dies auf Deutsch oder Englisch tun, das Report Tool selbst ist leider nicht auf
-   Deutsch verfügbar):
+   Einleitung ("About this tool") auf dieser Seite dazu durch.
+2. Klicken Sie rechts auf `Start New Report` und tragen Sie auf der folgenden Seite die grundsätzlichen Daten für die
+   Evaluierung ein (Sie können dies auf Deutsch oder Englisch tun, das Report Tool selbst ist leider nicht auf Deutsch
+   verfügbar):
     1. **Website name:** Der Name der Seite.
     2. **Scope of the website:** Hier wird eingetragen, welche Teile einer Webseite evaluiert werden. Da die Seite eine
        Singe-Page-Seite darstellt, genügt es hier einzutragen, dass Sie die gesamte Seite evaluieren.
@@ -28,8 +28,8 @@ dafür vom W3C zur Verfügung gestellte WCAG-EM Report Tool und die Quick Refere
        Browser ein, mit dem Sie testen. Wenn Sie einen Screenreader ausprobieren, geben Sie das hier ebenfalls an.
     6. **Additional evaluation requirements:** Beschreiben Sie hier eventuelle optionale Kriterien, dies kann auch leer
        gelassen werden.
-3. Wählen Sie `Next step: Explore Website` aus und tragen Sie die für die Webseite zutreffenden Details ein. Die
-   Webseite zu erkunden, wie angegeben, dürfte bei der eigenen Seite kaum mehr notwendig sein.
+3. Wählen Sie rechts unten `Next step: Explore Website` aus und tragen Sie die für die Webseite zutreffenden Details
+   ein. Die Webseite zu erkunden ist bei der Portfolio-Webseite nicht sehr aufwändig.
     1. **Web Technologies Relied Upon:** Wählen Sie hier die verwendeten Technologien aus. Auf jeden Fall HTML und CSS,
        falls Sie SVG-Grafiken verwenden auch SVG. Wenn JavaScript inkludiert ist, kreuzen Sie auch hier die Checkbox an.
     2. **Optional Exploration Notes – Essential functionality of the website:** Hier können Sie sich Notizen zur
@@ -52,18 +52,18 @@ dafür vom W3C zur Verfügung gestellte WCAG-EM Report Tool und die Quick Refere
 
 ### Die Webseite evaluieren
 
-1. Beginnen Sie im Report Tool bei Erfolgskriterium *1.1.1 Non-text Content* und klappen Sie zunächst durch Klick
-   auf `Show full description` die Beschreibung für dieses Kriterium aus, um es zu verstehen. Bei den
-   Buttons `Understanding 1.1.1` und `How to meet 1.1.1` bekommen Sie noch weitere Informationen bzw. nützliche Tipps,
-   wie sie dieses Kriterium erreichen können. Tipp: passen Sie sich die *How to Meet WCAG 2.2* Liste über den "Filter"
-   Tab links an und wählen Sie Level A und nur HTML und CSS als Technologien. Die "Sufficient Techniques" sind in der
-   Regel auch ausreichend.
+1. Beginnen Sie im Report Tool bei Erfolgskriterium *1.1.1 Non-text Content* und klappen Sie zunächst durch Klick auf
+   `Show full description` die Beschreibung für dieses Kriterium aus, um es zu verstehen. Bei den Buttons
+   `Understanding 1.1.1` und `How to meet 1.1.1` bekommen Sie noch weitere Informationen bzw. nützliche Tipps, wie sie
+   dieses Kriterium erreichen können. Tipp: passen Sie sich die *How to Meet WCAG 2.2* Liste über den "Filter" Tab links
+   an und wählen Sie Level A und nur HTML und CSS als Technologien. Die "Sufficient Techniques" sind in der Regel auch
+   ausreichend.
 2. Bewerten Sie nun, wie dieses Kriterium auf der Webseite erfüllt ist. Überprüfen Sie also, ob alle Bilder
-   Alternativtext enthalten. Wenn dies der Fall ist, wählen Sie unter "Outcome" `Passed` und tragen Sie unter
-   "Observations" einen Kommentar ein. Wenn es nicht erfüllt ist, wählen Sie `Failed` und notieren Sie, wo Probleme
+   Alternativtext enthalten. Wenn dies der Fall ist, wählen Sie unter "Outcome" `Passed` und tragen Sie unter "
+   Observations" einen Kommentar ein. Wenn es nicht erfüllt ist, wählen Sie `Failed` und notieren Sie, wo Probleme
    aufgetreten sind.
-3. Fahren Sie nun mit Erfolgskriterium 1.2.1 fort. Da hier etwa weder Audio noch Video in der Seite verwendet
-   wird, wählen Sie `Not present` und fügen Sie einen kurzen Kommentar ein.
+3. Fahren Sie nun mit Erfolgskriterium 1.2.1 fort. Wenn Sie hier etwa weder Audio noch Video in der Seite verwenden,
+   wählen Sie `Not present` und fügen Sie einen kurzen Kommentar ein.
 4. Evaluieren Sie nun die restlichen Punkte.
 5. Wählen Sie nun `Next step: Report Findings` und tragen Sie die verbleibenden Daten ein:
     1. **Evaluation commissioner:** Die Person, die die Evaluierung in Auftrag gegeben hat. Entweder Sie selbst oder der
@@ -71,7 +71,7 @@ dafür vom W3C zur Verfügung gestellte WCAG-EM Report Tool und die Quick Refere
     2. **Evaluator:** Ihr Name.
     3. **Executive summary:** Geben Sie eine kurze Zusammenfassung zur Evaluierung an.
 6. Wählen Sie nun `Next step: View Report` und sehen sie sich die Resultate ihrer Evaluierung an. Sie können die drei
-7. zur Verfügung gestellten Dateien (Report-HTML, Report-CSS und Reportdaten als JSON) herunterladen und abspeichern.
+   zur Verfügung gestellten Dateien (Report-HTML, Report-CSS und Reportdaten als JSON) herunterladen und abspeichern.
    Somit ist der Report jederzeit verfügbar.
 
 Die Granularität Ihres Berichts bestimmen Sie. Der primäre Zweck ist, die WCAG praktisch einzusetzen und sich damit
@@ -94,7 +94,7 @@ Online-Validatoren könnten nützlich sein:
 
 - [MAUVE++ (WCAG 2.1)](https://mauve.isti.cnr.it/),
 - [Ace it (WCAG 2.1 AA)](https://ace.useit.se/ax/aceit.php?lang=en),
-- [WebAIM Wave](https://wave.webaim.org/) (für lokale Seiten nur mit Chrome-, Edge- oder Firefox-Extension),
+- [WebAIM Wave](https://wave.webaim.org/) (für lokale Seiten nur mit Chrome- oder Firefox-Extension),
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/).
 
 ### Browser-Extensions
@@ -111,5 +111,5 @@ werden. Folgende Tools sind empfehlenswert:
 - [ARIA DevTools](https://chrome.google.com/webstore/detail/aria-devtools/dneemiigcbbgbdjlcdjjnianlikimpck?hl=en):
   Chrome Extension, das die semantische Struktur einer Webseite anzeigt und damit darstellt, wie Screenreader sie sehen.
 
-Verwenden Sie mehr als nur ein Accessibility Tool, um auf eventuelle Probleme ihrer Website aufmerksam zu werden.
+Verwenden Sie mehr als nur ein Accessibility Tool, um auf eventuelle Probleme der Website aufmerksam zu werden.
 Diese Tools sind nicht perfekt und sollten daher nur als Ergänzung zu einer händischen Evaluierung gesehen werden.
